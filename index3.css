@@ -1,0 +1,42 @@
+/* body{
+    --bs-body-font-weight: 500;
+
+} */
+#header,#rep_header{
+    /* border: 2px solid black; */
+    padding-top: 6%;
+    text-align: center;
+    
+    
+}
+#header{
+    font-weight: 700;
+}
+#rep_header{
+    font-weight: 500;
+}
+.card{
+    border: none;
+    --bs-border-radius: none;
+}
+#detail{
+    margin-top: 20%;
+    height: auto;
+    width:100%; 
+   
+    text-align: -webkit-center;
+    padding-left: 5%;
+   
+}
+
+#replacement_container{
+    background-color: rgb(231, 229, 229);
+    border-top: 1px solid black;
+    height: auto;
+}
+
+.fixed-height {
+    height: 200px; /* You can adjust this value */
+    object-fit: cover;
+    width: 100%;
+  }
