@@ -8,7 +8,7 @@ $(document).ready(function () {
 
     const constraints = {
         video: {
-            facingMode: "user" // Prefer the front camera on mobile devices
+            facingMode: { exact: "environment" } // Prefer the front camera on mobile devices
         }
     };
 
